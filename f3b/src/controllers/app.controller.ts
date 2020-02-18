@@ -1,5 +1,5 @@
 import { Application } from 'express';
-import { AppService } from 'src/routes/app.service';
+import { AppService } from '../services/app.service';
 
 export class Controller {
     private appService: AppService;
@@ -10,6 +10,6 @@ export class Controller {
     }
 
     public routes() {
-        this.app.route('/').get(this.appService.wellcomeMessage());
+        this.app.route('/').get(this.appService.wellcomeMessage);
     }
 }

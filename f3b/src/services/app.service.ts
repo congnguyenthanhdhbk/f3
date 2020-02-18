@@ -1,5 +1,4 @@
 import { Request, Response } from 'express';
-import { readSync } from 'fs';
 
 export class AppService {
     public wellcomeMessage(req: Request, res: Response) {
