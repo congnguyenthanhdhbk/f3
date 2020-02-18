@@ -1,6 +1,8 @@
 import dotenv from "dotenv";
 import express from "express";
 
+const product = require('./routes/prodct.route');
+
 // initialize configuration
 dotenv.config();
 
@@ -9,6 +11,8 @@ dotenv.config();
 const port = process.env.SERVER_PORT;
 
 const app = express();
+
+app.use('/product', product);
 
 // start the express server
 app.listen( port, () => {

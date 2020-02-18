@@ -1,7 +1,7 @@
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 
-let ProductSchema = new Schema({
+const ProductSchema = new Schema({
     name: {
         type: String,
         required: true,
