@@ -11,5 +11,10 @@ export class Controller {
 
     public routes() {
         this.app.route('/').get(this.appService.wellcomeMessage);
+        this.app.route("/apps").get(this.appService.getAllAppEntity);
+        this.app.route("/app").post(this.appService.addNewAppEntity);
+        this.app.route("/app/:id")
+            .delete(this.appService.deleteAppEntity)
+            .put(this.appService.updateAppEntity);
     }
 }
