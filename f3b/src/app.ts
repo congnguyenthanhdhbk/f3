@@ -3,11 +3,14 @@ import bodyParse from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import { Controller } from './controllers/app.controller';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 class App {
     public app: Application;
     
-    //declaring our controller
+    // declaring our controller
     public appController: Controller;
     constructor() {
         this.app = express();
@@ -19,17 +22,19 @@ class App {
     }
 
     private setConfig() {
-        //Allows us to receive requests with data in json format
+        // Allows us to receive requests with data in json format
         this.app.use(bodyParse.json({ limit: '50mb' }));
 
-        //Allows us to receive requests with data in x-www-form-urlencoded format
+        // Allows us to receive requests with data in x-www-form-urlencoded format
         this.app.use(bodyParse.urlencoded({ limit: '50mb', extended: true }));
 
-        //Enables cors
+        // Enables cors
         this.app.use(cors());
     }
 
     private setMongoConfig() {
+        // tslint:disable-next-line:no-console
+        console.log(process.env.MONGO_URI);
         mongoose.Promise = global.Promise;
         mongoose.connect(process.env.MONGO_URI, {
             useNewUrlParser: true
