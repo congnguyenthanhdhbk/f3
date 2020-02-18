@@ -1,6 +1,7 @@
 import express, { Application } from 'express';
 import bodyParse from 'body-parser';
 import cors from 'cors';
+import mongoose from 'mongoose';
 import { Controller } from './controllers/app.controller';
 
 class App {
@@ -11,6 +12,7 @@ class App {
     constructor() {
         this.app = express();
         this.setConfig();
+        // this.setMongoConfig();
 
         // //Creating and assigning a new instance of our controller
         this.appController = new Controller(this.app);
@@ -25,6 +27,13 @@ class App {
 
         //Enables cors
         this.app.use(cors());
+    }
+
+    private setMongoConfig() {
+        mongoose.Promise = global.Promise;
+        mongoose.connect(process.env.MONGO_URI, {
+            useNewUrlParser: true
+        });
     }
 }
 
