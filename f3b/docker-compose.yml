@@ -4,10 +4,14 @@ services:
   db:
     container_name: mongoDB
     image: mongo:latest
+    container_name: "mongodb"
     restart: always
-    volumes:
-      - ./appData:/data/db
+    # volumes:
+    #   - ./data/db:/data/db
     environment:
-      - MONGO_INITDB_DATABASE=appData
+      - MONGO_INITDB_DATABASE=/data/db
+      - MONGO_LOG_DIR=/dev/null
+      - MONGO_DATABASE=f3
     ports:
       - 27017:27017
+    # command: mongod --smallfiles --logpath=/dev/null # --quiet

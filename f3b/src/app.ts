@@ -12,7 +12,7 @@ class App {
     constructor() {
         this.app = express();
         this.setConfig();
-        // this.setMongoConfig();
+        this.setMongoConfig();
 
         // //Creating and assigning a new instance of our controller
         this.appController = new Controller(this.app);
