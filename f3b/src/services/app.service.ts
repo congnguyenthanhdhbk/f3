@@ -19,7 +19,9 @@ export class AppService {
 
     public addNewAppEntity = (req: Request, res: Response) => {
         const newAppEntity = new AppEntity(req.body);
-        AppEntity.create((error: Error, appEntity: MongooseDocument) => {
+        // tslint:disable-next-line:no-console
+        console.log(newAppEntity);
+        AppEntity.create(newAppEntity, (error: Error, appEntity: MongooseDocument) => {
             if (error) {
                 res.send(error);
             }
