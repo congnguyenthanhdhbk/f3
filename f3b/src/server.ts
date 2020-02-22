@@ -1,9 +1,5 @@
 import app from './app';
-import dotenv from 'dotenv';
-
-dotenv.config();
-const PORT = process.env.SERVER_PORT;
-
+import * as constant from './constants/app.constant';
 
 // tslint:disable-next-line:no-console
-app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+app.listen(constant.PORT, () => console.log(`Listening on port ${constant.PORT}`));

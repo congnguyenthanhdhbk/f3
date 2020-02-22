@@ -3,13 +3,11 @@ import bodyParse from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import { Controller } from './controllers/app.controller';
-import dotenv from 'dotenv';
-
-dotenv.config();
+import * as constant from './constants/app.constant';
 
 class App {
     public app: Application;
-    
+
     // declaring our controller
     public appController: Controller;
     constructor() {
@@ -17,7 +15,7 @@ class App {
         this.setConfig();
         this.setMongoConfig();
 
-        // //Creating and assigning a new instance of our controller
+        // Creating and assigning a new instance of our controller
         this.appController = new Controller(this.app);
     }
 
@@ -34,11 +32,11 @@ class App {
 
     private setMongoConfig() {
         // tslint:disable-next-line:no-console
-        console.log(process.env.MONGO_URI);
         mongoose.Promise = global.Promise;
-        mongoose.connect(process.env.MONGO_URI, {
+        mongoose.connect(constant.MONGO_URI, {
             useNewUrlParser: true
-        });
+            // tslint:disable-next-line:no-console
+        }).then(r => console.log(r));
     }
 }
 
