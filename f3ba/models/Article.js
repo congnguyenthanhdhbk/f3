@@ -1,42 +1,42 @@
-var mongoose = require('mongoose');
-var uniqueValidator = require('mongoose-unique-validator');
-var slug = require('slug');
-var User = mongoose.model('User');
+var mongoose = require('mongoose')
+var uniqueValidator = require('mongoose-unique-validator')
+var slug = require('slug')
+var User = mongoose.model('User')
 
 var ArticalSchema = new mongoose.Schema({
-  slug: {type: String, lowercase: true, unique: true},
+  slug: { type: String, lowercase: true, unique: true },
   title: String,
   description: String,
   body: String,
   favoritesCount: { type: Number, default: 0 },
-  comments: [ { type: mongoose.Schema.Types.ObjectId, ref: 'Comment'}],
+  comments: [{ type: mongoose.Schema.Types.ObjectId, ref: 'Comment' }],
   tagList: [{ type: String }],
-  author: { type: mongoose.Schema.Types.ObjectId, ref: 'User'}
-}, { timestamps: true});
+  author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' }
+}, { timestamps: true })
 
-ArticalSchema.plugin(uniqueValidator, { message: 'is already token'});
+ArticalSchema.plugin(uniqueValidator, { message: 'is already token' })
 
 ArticalSchema.pre('validate', function (next) {
   if (!this.slug) {
-    this.slugify();
+    this.slugify()
   }
 
-  next();
-});
+  next()
+})
 
-ArticalSchema.methods.slugify = function () {
+ArticalSchema.methods.slugify = () => {
   this.slug = `${slug(this.title)}-${(Math.random() * Math.pow(36, 6) | 0).toString(36)}`
-};
+}
 
 ArticalSchema.methods.updateFavoriteCount = () => {
-  var article = this;
+  var article = this
 
-  return User.count({ favorites: {$in: [article._id]}}).then((count) => {
-    article.favoritesCount = count;
+  return User.count({ favorites: { $in: [article._id] } }).then((count) => {
+    article.favoritesCount = count
 
-    return article.save();
-  });
-};
+    return article.save()
+  })
+}
 
 ArticalSchema.methods.toJSONFor = (user) => {
   return {
@@ -50,8 +50,7 @@ ArticalSchema.methods.toJSONFor = (user) => {
     favorited: user ? user.isFavorite(this._id) : false,
     favoritesCount: this.favoritesCount,
     author: this.author.toProfileJSONFor(user)
-  };
-};
+  }
+}
 
-mongoose.model('Article', ArticalSchema);
-
+mongoose.model('Article', ArticalSchema)

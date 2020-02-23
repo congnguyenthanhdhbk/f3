@@ -3,9 +3,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "mongo:start": "docker run --name mongodb -p 27017:27017 mongo & sleep 5",
     "start": "node ./bin/www",
-    "test": "mocha -R spec src/**/*.spec.js",
-    "lint": "standard --verbose | snazzy"
+    "dev": "nodemon ./bin/www",
+    "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
+    "stop": "lsof -ti :3000 | xargs kill",
+    "mongo:stop": "docker stop mongodb && docker rm mongodb",
+    "lint": "standard --verbose | snazzy",
+    "lint:fix": "standard --fix"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
