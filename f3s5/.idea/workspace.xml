@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4383887d-7d73-4ae1-be29-c6436eeb90d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/products.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/k8s.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mixins/db.mixin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/moleculer.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/api.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/greeter.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/products.service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/products.service.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/mixins/db.mixin.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/services/greeter.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/unit/services/products.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/.dockerignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/.vscode/launch.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/docker-compose.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/moleculer.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/public/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/services/api.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/services/greeter.service.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/test/unit/greeter.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hf/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/.bin/express-generator-typescript" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/.bin/ncp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/edit-json-file/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/edit-json-file/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/edit-json-file/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/edit-json-file/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/bin/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/env/development.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/env/production.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/env/test.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/nodemon.test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/spec/Auth.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/spec/LoadEnv.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/spec/Users.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/spec/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/spec/support/LoginAgent.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/spec/support/jasmine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/LoadEnv.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/Server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/daos/MockDb/MockDao.mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/daos/MockDb/MockDb.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/daos/MockDb/MockDb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/daos/User/UserDao.mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/daos/User/UserDao.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/entities/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/public/scripts/http.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/public/scripts/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/public/scripts/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/public/stylesheets/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/public/stylesheets/users.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/routes/Auth.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/routes/Users.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/routes/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/routes/middleware.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/shared/JwtService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/shared/Logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/shared/constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/shared/functions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/views/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/src/views/users.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/tsconfig.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/auth-proj/util/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/cli.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/express-generator-typescript.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/env/development.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/env/production.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/env/test.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/nodemon.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/nodemon.test.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/spec/Users.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/spec/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/spec/support/jasmine.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/LoadEnv.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/Server.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/daos/MockDb/MockDao.mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/daos/MockDb/MockDb.backup.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/daos/MockDb/MockDb.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/daos/User/UserDao.mock.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/daos/User/UserDao.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/entities/User.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/public/scripts/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/routes/Users.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/routes/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/shared/Logger.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/shared/constants.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/shared/functions.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/src/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/tsconfig.prod.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/lib/project-files/util/build.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/express-generator-typescript/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/find-value/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/find-value/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/find-value/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/find-value/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/is-plain-object/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/is-plain-object/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/is-plain-object/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/is-plain-object/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/is-plain-object/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/isobject/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/isobject/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/isobject/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/isobject/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/isobject/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/iterate-object/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/iterate-object/DOCUMENTATION.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/iterate-object/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/iterate-object/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/iterate-object/example/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/iterate-object/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/iterate-object/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/bin/ncp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/lib/ncp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/modified-files/out/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/modified-files/src/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/ncp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/sub/a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/regular-fixtures/src/sub/b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/symlink-fixtures/src/dir/bar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/ncp/test/symlink-fixtures/src/foo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/r-json/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/r-json/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/r-json/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/r-json/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/set-value/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/set-value/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/set-value/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/set-value/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/w-json/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/w-json/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/w-json/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../node_modules/w-json/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../passport/.idea/workspace.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1ZGGyzfgzNEnBqGfgNMyFx6x9Zp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="dev" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4383887d-7d73-4ae1-be29-c6436eeb90d6" name="Default Changelist" comment="" />
+      <created>1584458275580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584458275580</updated>
+      <workItem from="1584458278955" duration="402000" />
+      <workItem from="1584543241817" duration="975000" />
+      <workItem from="1584814343061" duration="88000" />
+      <workItem from="1586587785960" duration="199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="204" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584458485457">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="204" y="75" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1584458485457" />
+    <state width="1379" height="238" key="GridCell.Tab.0.bottom" timestamp="1584458691379">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1584458691379" />
+    <state width="1379" height="238" key="GridCell.Tab.0.center" timestamp="1584458691379">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1584458691379" />
+    <state width="1379" height="238" key="GridCell.Tab.0.left" timestamp="1584458691378">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1584458691378" />
+    <state width="1379" height="238" key="GridCell.Tab.0.right" timestamp="1584458691379">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1379" height="238" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1584458691379" />
+  </component>
+</project>
