@@ -9,5 +9,5 @@ public interface PatientCustomRepository {
                                final String lastName,
                                final String gender,
                                final String genderId,
-                               final String dob);
+                               final String dob, String sort);
 }

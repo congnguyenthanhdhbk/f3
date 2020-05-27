@@ -4,9 +4,11 @@ import com.healthsoft.apis.PatientApi;
 import com.healthsoft.apis.response.PatientResponse;
 import com.healthsoft.dtos.PatientDto;
 import com.healthsoft.services.PatientService;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin(value = "http://localhost:3000")
 public class PatientApiImpl implements PatientApi {
 
     private PatientService patientService;
@@ -23,6 +25,11 @@ public class PatientApiImpl implements PatientApi {
     @Override
     public PatientResponse getPatient(String patientId) {
         return patientService.getPatient(patientId);
+    }
+
+    @Override
+    public PatientResponse getPatients(String firstName, String lastName, String gender, String patientId, String dob, String sort) {
+        return patientService.findPatients(firstName, lastName, gender, patientId, dob, sort);
     }
 
     @Override

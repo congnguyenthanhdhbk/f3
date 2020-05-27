@@ -14,10 +14,12 @@ public class Patient {
     private String middleName;
     private String dob;
     private String gender;
+    private boolean isDeleted = false;
     private Date createdAt = new Date();
     private Date updatedAt = new Date();
 
-    public Patient(String firstName, String lastName, String middleName, String dob, String gender) {
+    public Patient(String firstName, String lastName, String middleName,
+                   String dob, String gender) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.middleName = middleName;
@@ -90,6 +92,14 @@ public class Patient {
 
     public void setUpdatedAt(Date updatedAt) {
         this.updatedAt = updatedAt;
+    }
+
+    public boolean isDeleted() {
+        return isDeleted;
+    }
+
+    public void setDeleted(boolean deleted) {
+        isDeleted = deleted;
     }
 
     @Override

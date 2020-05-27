@@ -11,4 +11,9 @@ public interface PatientService {
     PatientResponse getPatient(String patientId);
     PatientResponse updatePatient(String patientId, String newPatientId);
     PatientResponse deletePatient(String patientId);
+    PatientResponse findPatients(final String firstName,
+                         final String lastName,
+                         final String gender,
+                         final String patientId,
+                         final String dob, String sort);
 }

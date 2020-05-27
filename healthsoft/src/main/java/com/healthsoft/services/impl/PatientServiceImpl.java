@@ -8,6 +8,7 @@ import com.healthsoft.services.PatientService;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
@@ -106,7 +107,15 @@ public class PatientServiceImpl implements PatientService {
             return new PatientResponse("404", "Patient doesn't exist", null);
         }
 
-        patientRepository.delete(patient.get());
+        Patient d = patient.get();
+        d.setDeleted(true);
+        patientRepository.save(d);
         return new PatientResponse("204", "Patient has been deleted", null);
+    }
+
+    @Override
+    public PatientResponse findPatients(String firstName, String lastName, String gender, String patientId, String dob, String sort) {
+        List<Patient> patients =  patientRepository.findPatients(firstName, lastName, gender, patientId, dob, sort);
+        return new PatientResponse("200", String.valueOf(patients.size()), patients);
     }
 }
